@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+}
+body {
+ line-height: 1;
+ background-color: whitesmoke;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+/* remember to define focus styles! */
+:focus {
+ outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+ text-decoration: none;
+}
+del {
+ text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+.navbar{
+ background-color:#02548E;
+ width: 100%;
+ height: 50px;
+ position: fixed;
+ z-index:1;
+ box-shadow: black 2px 2px 2px 2px;
+}
+.navbar .anamenu a{
+ position: absolute;
+ color: white;
+ left: 500px;
+ top: 15px;
+ font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ transition-duration: 0.6s;
+}
+.navbar .anamenu a:hover{
+ color: rgb(18, 198, 253);
+}
+.navbar .anamenu a .active{
+ background-color: rgba(255, 255, 255, 0.2);
+ transition: 0.3s background-color 0.2s;
+}
+.navbar .havalimani a{
+ position: absolute;
+ color: white;
+ left: 605px;
+ top: 15px;
+ font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ transition-duration: 0.6s;
+}
+
+.navbar .havalimani a:hover{
+ color: rgb(18, 198, 253);
+}
+.navbar .tablolar a{
+ position: absolute;
+ color: white;
+ left: 740px;
+ top: 15px;
+ font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ transition-duration: 0.6s;
+}
+.navbar .tablolar a:hover{
+ color: rgb(18, 198, 253);
+}
+.navbar .fa-plane{
+ position: absolute;
+ font-size: 30px;
+ top: 10px;
+ left: 20px;
+ color: whitesmoke;
+}
+.navbar .cikis a{
+ position: relative;
+ left: 1400px;
+ top: 0px;
+ cursor: pointer;
+ transition-duration: 0.6s;
+ font-size: 18px;
+ color: whitesmoke;
+ text-decoration: none;
+ font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar .cikis a i{
+ position: relative;
+ color: whitesmoke;
+ font-size: 16px;
+ margin-right: 4px;
+ color: white;
+ transition-duration: 0.6s;
+}
+.navbar .cikis a,i:hover{
+ color: white;
+}
+.navbar .cikis i:hover{
+ color: red;
+}
+.navbar .ucusyon{
+ position: absolute;
+ font-size: 20px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ left: 60px;
+ top: 14px;
+ color: seashell;
+}
+.secme #secme1{
+ margin-top: 57px;
+ margin-left: 15px;
+ background-color: white;
+ color: black;
+ transition-duration: 0.5s;
+}
+.secme #secme1:hover{
+ background-color: #4796cf;
+ color: white;
+}
+.secme button{
+ color:black;
+ background-color: white;
+ cursor: pointer;
+ transition-duration: 0.5s;
+}
+.secme button:hover{
+ background-color: #02548E;
+ color: white;
+}
+.kut1{
+ position:absolute;
+ width: 455px;
+ height: 300px;
+ background-color: white;
+ top: 80px;
+ left: 15px;
+ box-shadow: gray 4px 4px 4px 4px;
+}
+.kut2{
+ position: absolute;;
+ width: 470px;
+ height: 300px;
+ background-color: white;
+ left: 485px;
+ top: 80px;
+ box-shadow: gray 4px 4px 4px 4px;
+}
+.kut3{
+ position:absolute;
+ width: 540px;
+ height: 300px;
+ background-color: white;
+ left: 970px;
+ top: 80px;
+ box-shadow: gray 4px 4px 4px 4px;
+ font-size: 20px;
+}
+.kut4{
+ position:absolute;
+ width: 740px;
+ height: 300px;
+ background-color: white;
+ top: 770px;
+ left: 770px;
+ box-shadow: gray 4px 4px 4px 4px;
+}
+.kut5{
+ position:absolute;
+ width: 1495px;
+ height: 350px;
+ background-color: white;
+ top: 400px;
+ left: 15px;
+ box-shadow: gray 4px 4px 4px 4px;
+}
+.kut6{
+ position:absolute;
+ width: 1495px;
+ height: 400px;
+ background-color: white;
+ top:1090px;
+ left: 15px;
+ box-shadow: gray 4px 4px 4px 4px;
+ margin: 0 auto;
+}
+.kut7{
+ position:absolute;
+ width: 740px;
+ height: 300px;
+ background-color: white;
+ left: 15px;
+ top:770px;
+ box-shadow: gray 4px 4px 4px 4px;
+}
